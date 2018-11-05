@@ -9,6 +9,8 @@ Biclustering analysis of transcriptome big data identifies condition-specific mi
 ##### library('devtools')
 ##### install_github('ysora/bimir')
 
+#### It will take some minutes to install the package because of the large fold change table (~147MB). Using my PC, it took ~16 minutes. If there are problems with installing this package, please leave a message on this page or send me an email (yoonsora@unist.ac.kr)
+
 # Quick start with an example
 Let’s generate biclusters of ‘hsa-miR-1-3p’ where its target genes are up-regulated under common experimental conditions. To do this, type following lines.
 ##### FC = load_FCtable() # To load FC table
