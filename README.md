@@ -7,7 +7,7 @@ Biclustering analysis of transcriptome big data identifies condition-specific mi
 # Installation
 ##### install.packages('devtools') (skip this step if it is already installed.)
 ##### library('devtools')
-##### install_github('ysora/bimir')
+##### install_github('unistbig/bimir')
 
 #### It will take some minutes to install the package because of the large fold change table (~147MB). Using my PC, it took ~16 minutes. If there are problems with installing this package, please leave a message on this page or send me an email (yoonsora@unist.ac.kr)
 
